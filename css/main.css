@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header section */
+header{
+    width: 100%;
+    float: left;
+    background: rgba(167, 192, 128, 0.651);
+    color: white;
+    padding:26px 0px;
+   
+}
+.container{
+    width: 1140px;
+    margin:0 auto;
+}
+.logo{
+    width:50%;
+    float: left;
+}
+.logo img{
+    margin-top: 0px;
+}
+.menu{
+    width:50%;
+    float:left
+}
+.menu nav ul {
+    list-style: none;
+}
+.menu nav ul li {
+    
+    display: inline-block;
+    margin: 10px 19px;
+    font-size: medium;
+}
+.menu nav ul li a {
+    text-decoration: none;
+    padding: 11px 16px;
+    background: rgb(121, 165, 150);
+    color: ivory;
+    text-transform: uppercase;
+}
+/* banner */
+.banner{
+    width:100%;
+    float:left;
+    background:url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 26px 0px;
+}
+.banner-main {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.banner-main h2{
+            color:white;
+            font-size: 110px;
+}
+.banner-main strong {
+    border-bottom: 3px solid #15a4fa;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+.banner-main p {
+    font-size: 18px;
+    color: white;
+}
+.banner-btn {
+    border: 1px solid #15a4fa;
+    background: transparent;
+    padding: 10px 24px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.benner-icon {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+    /* information section */
+
+.information {
+        width: 100%;
+        float: left;
+        background: #f6f9f9;
+        
+    }
+    .information h2 {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 12px;
+    }
+.information p {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #c4c6c6;
+}
